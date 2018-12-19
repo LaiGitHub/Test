@@ -1,0 +1,7 @@
+#让电池进入不充电状态，进入不充电状态才能计算耗电量
+adb shell dumpsys battery unplug
+#重置电源状态
+adb shell dumpsys battery reset
+#重置电池状态
+adb shell dumpsys batterystats --reset
+
